@@ -1,0 +1,9 @@
+idf_component_register(
+                        SRCS
+                          "MeWhere.cpp"
+                        INCLUDE_DIRS
+                          "."
+                        PRIV_REQUIRES
+                          JobScheduler
+                          Osal
+)
